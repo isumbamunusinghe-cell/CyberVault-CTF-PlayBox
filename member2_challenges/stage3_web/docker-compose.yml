@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  stage3_web:
+    build: .
+    container_name: cybervault-stage3-app
+    ports:
+      - "8081:80"
+    restart: unless-stopped
+    networks:
+      - ctf_isolated_net
+
+networks:
+  ctf_isolated_net:
+    driver: bridge

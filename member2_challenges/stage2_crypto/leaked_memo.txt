@@ -1,0 +1,14 @@
+=====================================================
+CYBERVAULT INCIDENT REPORT - INTERNAL MEMO
+Case ID: IR-2026-OCT-01
+Classification: RESTRICTED
+=====================================================
+
+Security Team Note:
+During the workstation sweep, the suspect pasted this encoded
+string into an unindexed draft document before disconnection:
+
+Payload String:
+Q1RGe2VuY29kZWRfbm90ZV9kZWNvZGVkfQ==
+
+=====================================================
