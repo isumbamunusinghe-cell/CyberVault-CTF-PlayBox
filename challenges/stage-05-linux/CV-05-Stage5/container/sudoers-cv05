@@ -1,0 +1,1 @@
+player ALL=(root) NOPASSWD: /usr/local/sbin/cv05-maintenance ""

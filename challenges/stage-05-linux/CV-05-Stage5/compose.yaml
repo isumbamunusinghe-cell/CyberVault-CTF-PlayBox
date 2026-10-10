@@ -1,0 +1,43 @@
+name: cybervault-cv05
+
+services:
+  cv05:
+    image: cybervault-cv05:dev
+    pull_policy: never
+    hostname: cv05-server
+    init: true
+    restart: "no"
+
+    ports:
+      - "192.168.60.50:2222:22/tcp"
+
+    dns:
+      - 127.0.0.1
+
+    networks:
+      cv05_lab:
+        ipv4_address: 172.30.50.10
+
+    cap_drop:
+      - NET_RAW
+
+    mem_limit: 512m
+    cpus: 1.0
+    pids_limit: 128
+
+    logging:
+      driver: json-file
+      options:
+        max-size: "5m"
+        max-file: "2"
+
+networks:
+  cv05_lab:
+    driver: bridge
+    internal: false
+    enable_ipv6: false
+    driver_opts:
+      com.docker.network.bridge.name: br-cv05
+    ipam:
+      config:
+        - subnet: 172.30.50.0/24

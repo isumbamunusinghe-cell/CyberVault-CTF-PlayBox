@@ -1,0 +1,25 @@
+Port 22
+AddressFamily inet
+ListenAddress 0.0.0.0
+
+PermitRootLogin no
+AllowUsers player
+PasswordAuthentication yes
+PermitEmptyPasswords no
+PubkeyAuthentication no
+KbdInteractiveAuthentication no
+UsePAM yes
+
+DisableForwarding yes
+PermitTunnel no
+X11Forwarding no
+PermitUserEnvironment no
+
+LoginGraceTime 30
+MaxAuthTries 3
+MaxSessions 2
+PrintMotd no
+PrintLastLog yes
+LogLevel VERBOSE
+
+Subsystem sftp internal-sftp

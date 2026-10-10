@@ -1,0 +1,9 @@
+CyberVault Solutions — Internal Incident Evidence
+Asset: Compromised Linux server
+
+The maintenance workflow contains an unsafe permission boundary.
+The server investigation confirms that privileged maintenance
+execution can be influenced by a low-privilege maintenance account.
+
+Recovered investigation flag:
+CTF{linux_privilege_found}
