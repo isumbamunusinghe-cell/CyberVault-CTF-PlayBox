@@ -1,0 +1,3 @@
+2026-09-18T08:59:04Z device=USB-7A31 event=connected user=employee24 workstation=WS-24 label=ONBOARDING-TRANSFER mount=/media/employee24/ONBOARDING-TRANSFER
+2026-09-18T09:21:44Z device=USB-7A31 event=write file=onboarding_bundle.tar bytes=18432 result=success
+2026-09-18T09:29:10Z device=USB-7A31 event=disconnected user=employee24 workstation=WS-24

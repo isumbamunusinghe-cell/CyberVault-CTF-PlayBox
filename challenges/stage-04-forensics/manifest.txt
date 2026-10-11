@@ -1,0 +1,7 @@
+Removable media label: ONBOARDING-TRANSFER
+Device identifier: USB-7A31
+Volume received: 2026-09-18T08:59:04Z
+Archive recorded: onboarding_bundle.tar
+Archive write time: 2026-09-18T09:21:44Z
+Recovery catalog: recovery/record-003.dat
+Catalog record 003 is associated with the archive write event listed above.

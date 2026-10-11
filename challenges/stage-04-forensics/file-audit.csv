@@ -1,0 +1,6 @@
+timestamp_utc,user,action,source_path,destination_path,device_id
+2026-09-18T08:35:20Z,employee24,read,/home/employee24/onboarding/welcome-pack.pdf,,WS-24
+2026-09-18T09:14:03Z,employee24,read,/home/employee24/onboarding/starter-roster.csv,,WS-24
+2026-09-18T09:18:17Z,employee24,create,/home/employee24/Downloads/onboarding_bundle.tar,,WS-24
+2026-09-18T09:21:44Z,employee24,copy,/home/employee24/Downloads/onboarding_bundle.tar,/media/employee24/ONBOARDING-TRANSFER,USB-7A31
+2026-09-18T09:24:02Z,employee24,read,/media/employee24/ONBOARDING-TRANSFER/manifest.txt,,USB-7A31
